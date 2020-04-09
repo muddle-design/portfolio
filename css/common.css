@@ -1,0 +1,39 @@
+html {
+	font-family: "M PLUS 1p";
+}
+body, h1, h2, h3, p, div, table, th, td, dl, dt, dd, ul, li, a {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1.5;
+}
+ul{
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+.container {
+	min-width: 375px;
+	max-width: 1400px;
+	margin: auto;
+}
+nav ul a {
+	display: block;
+	padding: 12.5px 5px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 55px;
+	line-height: 1;
+}
+nav .inquiry-service a {
+	background-image: linear-gradient(to right, rgba(230, 102, 85, 1) 0%, rgba(227, 161, 52, 1) 100%);
+}
+nav .inquiry-recruit a {
+	background-image: linear-gradient(to right, rgba(0, 163, 175, 1) 0%, rgba(137, 162, 84, 1) 100%);
+}

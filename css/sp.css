@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/*  body
+＝＝＝＝＝＝＝＝＝＝＝*/
+body{
+    min-width: 375px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    line-height: 2em;
+}
+
+/*  header
+＝＝＝＝＝＝＝＝＝＝＝*/
+header{
+    position: relative;
+    padding: 10px 0;
+    width: 100%;
+}
+.pc-nav{
+    display: none;
+}
+/* .header-inner{
+    margin: 10px 20px;
+} */
+.sp_header a{
+    margin: auto;
+    width: 100px;
+    display: block;
+}
+.sp_header img{
+    display: block;
+    width: 100px;
+}
+.hero h1{
+    display: none;
+}
+.hero_inner{
+    background-image: url(../img/kv_sp.jpg);
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    padding-top: calc(220 / 250 * 60%);
+    border-bottom-right-radius: 55% 65%;
+}
+.hero_inner h2{
+    color: white;
+    font-size: 1.9em;
+}
+.h2_line, 
+.h4_line{
+    margin: 20px 0;
+    display: block;
+    width: 45px;
+    height: 3px;
+    background-color: #d7003d;
+}
+.hero_inner_text{
+    position: absolute;
+    margin-left: 10%;
+    color: white;
+    bottom: 10%;
+}
+.hero_inner_text{
+    line-height: 1.8em;
+}
+.sp_nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-top: 25px;
+}
+.nav_menu{
+    padding: 18px 30px;
+}
+.nav_button_box{
+    display: flex;
+    margin: 0 0 0 auto;
+}
+.nav_button_box a{
+    color: white;
+    line-height: 1.4em;
+    font-size: 0.75em;
+}
+.nav_button_service, 
+.nav_button_recruit{
+    margin-right: 20px;
+}
+.nav_button_service a {
+    display: block;
+    padding: 10px 15px;
+    width: 105%;
+    background-image: 
+    linear-gradient(to right, #e66655, #e3a134);
+    border-radius: 100PX;
+    text-align: center;
+}
+.nav_button_service a span{
+    display: block;
+}
+.nav_button_recruit a {
+    display: block;
+    padding: 10px 15px;
+    width: 105%;
+    background-image: 
+    linear-gradient(to right, #00a3af, #89a254);
+    border-radius: 100PX;
+    text-align: center;
+}
+.nav_button_recruit a span{
+    display: block;
+}
+
+/* main section
+mission ✕  vision　
+＝＝＝＝＝＝＝＝＝＝＝*/
+
+#identity{
+    margin-top: 70px;
+    text-align: center;
+}
+h3{
+    font-size: 1.9em;
+}
+.identity_inner p{
+    line-height: 1.8em;
+}
+
+.identity_mission h3::after{
+    background-image: 
+    linear-gradient(to right,#14b4e2, #877ed1);
+    margin: 20px auto;
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+}
+.identity_vision h3::after{
+    background-image: 
+    linear-gradient(to right,#7f81d4, #e84e7e);
+    margin: 20px auto;
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+}
+/*   ✕ CROSS ✕　
+＝＝＝＝＝＝＝＝＝＝＝*/
+.identity_cross{
+    width: 28px;
+    margin: 50px auto;
+}
+.identity_inner p span{
+    display: block;
+}
+
+/* education
+＝＝＝＝＝＝＝＝＝＝＝*/
+
+#education, #service{
+    margin-top: 70px;
+    background-image: url(../img/bg_heading.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.education_inner, .service_inner{
+    padding: 2% 5% 5% 5%;
+}
+.education_inner h2, .service_inner h2{
+    width: 50%;
+    margin: 0 auto;
+}
+h4{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+.br_sp{
+    display: block;
+}
+.br_pc{
+    display: none;
+}
